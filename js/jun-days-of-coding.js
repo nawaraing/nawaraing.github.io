@@ -14,5 +14,6 @@ window.onload = function() {
     var element = document.getElementsById('days-of-coding');
 
     console.log('daysOfCoding: ' + daysOfCoding());
-    element.setAttribute('data-number', daysOfCoding());
+    // element.setAttribute('data-number', daysOfCoding());
+    element.textContent = daysOfCoding();
 }
