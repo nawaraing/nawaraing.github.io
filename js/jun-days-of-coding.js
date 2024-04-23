@@ -10,7 +10,7 @@ function daysOfCoding() {
     return  Math.ceil(timeDiff / (1000 * 3600 * 24));
 }
 
-window.onload() = function() {
+window.onload = function() {
     var element = document.getElementsById('days-of-coding');
 
     console.log('daysOfCoding: ' + daysOfCoding());
